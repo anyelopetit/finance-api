@@ -15,7 +15,7 @@ module Users
     end
 
     def register_failed
-      render json: { message: "Signed up failure." }
+      render json: { message: 'Signed up failure.' }
     end
   end
 end
